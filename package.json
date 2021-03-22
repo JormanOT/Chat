@@ -1,0 +1,16 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon index.js "
+  },
+  "author": "JormanOT",
+  "license": "MIT",
+  "description": "Chat simple, test con socket.io"
+}

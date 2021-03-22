@@ -1,0 +1,90 @@
+body {
+  font-family: roboto;
+}
+
+#Tabla {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  height: 350px;
+  grid-gap: 5px;
+}
+#msg{
+  width: 600px;
+}
+#msg p{
+  width: 100%;
+  text-align: left;
+}
+input {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  background: #fff;
+  font-size: 14px;
+  margin: 0;
+  border-radius: 10px;
+}
+button {
+  background: rgb(27, 88, 201);
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  padding: 10px;
+  margin: 0;
+}
+.User {
+  border-color: black;
+  border: 2px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: cornflowerblue;
+}
+
+.chat {
+  border-color: black;
+  border: 2px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: cornflowerblue;
+}
+.chat-display{
+  height: 400px;
+  overflow: scroll;
+}
+
+#usuarios li {
+  color: white;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(218, 215, 215);
+}
+
+::-webkit-scrollbar-corner {
+  background: #f0f4ff;
+}
+
+#sidebar ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+#sidebar ul::-webkit-scrollbar-thumb {
+  background: #f0f4ff;
+}
+
+#sidebar ul::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 197, 211);
+}
+
+#sidebar ul::-webkit-scrollbar-corner {
+  background: #6495ed;
+}
